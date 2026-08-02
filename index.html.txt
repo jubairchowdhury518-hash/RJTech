@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RJTech - Smart Shopping for Tech & Style</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#222;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00e5ff;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    padding:70px 8%;
+    background:linear-gradient(135deg,#111,#333);
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#00e5ff;
+    color:#111;
+    padding:12px 25px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:50px 8%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px #ddd;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.card a{
+    background:#111;
+    color:white;
+    padding:10px 15px;
+    display:inline-block;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">RJTech</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">PC Parts</a>
+<a href="#">Gaming</a>
+<a href="#">Fashion</a>
+</nav>
+
+</header>
+
+
+<div class="hero">
+
+<h1>RJTech</h1>
+
+<p>
+Your trusted place for PC Parts, Gaming Gear & Fashion Picks
+</p>
+
+<a class="btn" href="#products">
+Explore Products
+</a>
+
+</div>
+
+
+<section id="products">
+
+<h2 class="title">Featured Products</h2>
+
+
+<div class="products">
+
+
+<div class="card">
+
+<img src="https://via.placeholder.com/300">
+
+<h3>Gaming PC Components</h3>
+
+<p>
+Best GPUs, CPUs, RAM & accessories.
+</p>
+
+<a href="YOUR_AFFILIATE_LINK">
+Check Price
+</a>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://via.placeholder.com/300">
+
+<h3>Gaming Equipment</h3>
+
+<p>
+Mouse, keyboard, headset and more.
+</p>
+
+<a href="YOUR_AFFILIATE_LINK">
+Buy Now
+</a>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://via.placeholder.com/300">
+
+<h3>Fashion Collection</h3>
+
+<p>
+Trending clothes and accessories.
+</p>
+
+<a href="YOUR_AFFILIATE_LINK">
+View Product
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="title">
+Why RJTech?
+</h2>
+
+<p style="text-align:center">
+We research products and recommend the best options
+to help customers make smarter buying decisions.
+</p>
+
+</section>
+
+
+<footer>
+
+<p>
+© 2026 RJTech | Affiliate Shopping Platform
+</p>
+
+</footer>
+
+
+</body>
+</html>
